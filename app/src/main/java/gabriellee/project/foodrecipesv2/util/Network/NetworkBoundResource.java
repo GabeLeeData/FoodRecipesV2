@@ -1,4 +1,4 @@
-package gabriellee.project.foodrecipesv2.util;
+package gabriellee.project.foodrecipesv2.util.Network;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MediatorLiveData;

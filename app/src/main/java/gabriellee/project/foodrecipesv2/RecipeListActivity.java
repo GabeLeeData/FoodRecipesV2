@@ -14,7 +14,6 @@ import android.support.v7.widget.Toolbar;
 import gabriellee.project.foodrecipesv2.adapters.OnRecipeListener;
 import gabriellee.project.foodrecipesv2.adapters.RecipeRecyclerAdapter;
 import gabriellee.project.foodrecipesv2.util.BaseActivity;
-import gabriellee.project.foodrecipesv2.util.Resource;
 import gabriellee.project.foodrecipesv2.util.VerticalSpacingItemDecorator;
 import gabriellee.project.foodrecipesv2.viewmodels.RecipeListViewModel;
 

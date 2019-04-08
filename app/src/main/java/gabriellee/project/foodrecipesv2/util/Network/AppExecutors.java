@@ -1,4 +1,4 @@
-package gabriellee.project.foodrecipesv2.util;
+package gabriellee.project.foodrecipesv2.util.Network;
 
 
 import android.os.Handler;
@@ -6,7 +6,6 @@ import android.os.Looper;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
 
 public class AppExecutors {
 

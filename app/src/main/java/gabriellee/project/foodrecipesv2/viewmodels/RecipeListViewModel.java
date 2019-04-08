@@ -7,11 +7,6 @@ import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.support.annotation.NonNull;
 
-import java.util.List;
-
-import gabriellee.project.foodrecipesv2.models.Recipe;
-import gabriellee.project.foodrecipesv2.util.Resource;
-
 public class RecipeListViewModel extends AndroidViewModel {
 
     private static final String TAG = "RecipeListViewModel";
