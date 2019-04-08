@@ -3,11 +3,13 @@ package gabriellee.project.foodrecipesv2.persistence;
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
+import android.arch.persistence.room.TypeConverters;
 import android.content.Context;
 
 import gabriellee.project.foodrecipesv2.models.Recipe;
 
 @Database(entities = {Recipe.class}, version = 1)
+@TypeConverters({Converters.class})
 public abstract class RecipeDatabase extends RoomDatabase {
 
     public static final String DATABASE_NAME = "recipes_db";
